@@ -61,14 +61,14 @@ export function Hero() {
 						<Linkedin className="w-6 h-6" />
 					</a>
 					<a
-						href="KhalidAshaibani@gmail.com"
+						href="mailto:KhalidAshaibani@gmail.com"
 						className="p-2 hover:text-purple-600 transition-colors"
 						aria-label="Email"
 					>
 						<Mail className="w-6 h-6" />
 					</a>
 					<a
-						href="tel://+967735011120"
+						href="tel:+967735011120"
 						className="p-2 hover:text-purple-600 transition-colors"
 						aria-label="Phone"
 					>

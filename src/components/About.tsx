@@ -9,8 +9,15 @@ export function About() {
 				<div className="grid md:grid-cols-2 gap-12 items-center">
 					<div>
 						<ImageWithFallback
-							src="https://images.unsplash.com/photo-1759884248009-92c5e957708e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjB3b3Jrc3BhY2UlMjBsYXB0b3B8ZW58MXx8fHwxNzYxNjgwMzA4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+							src="https://images.unsplash.com/photo-1759884248009-92c5e957708e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 							alt="Developer workspace"
+							attribution={{
+								photographer: "Sigmund",
+								imageUrl:
+									"https://unsplash.com/photos/man-in-a-baseball-cap-coding-on-laptops-9V-2P6Lq9b8",
+								site: "Unsplash",
+								siteUrl: "https://unsplash.com/",
+							}}
 							className="rounded-2xl shadow-lg w-full h-auto"
 						/>
 					</div>
@@ -26,11 +33,19 @@ export function About() {
 						</p>
 						<p className="text-gray-600 mb-6">
 							Currently working as Lead Full-Stack Developer at{" "}
-							<a href="https://temmam.com" target="_blank">
+							<a
+								href="https://temmam.com"
+								target="_blank"
+								style={{ textDecoration: "underline" }}
+							>
 								Temmam Light
 							</a>
 							. Developing Temmam CRM, and contributed to{" "}
-							<a href="https://RamiJabley.com" target="_blank">
+							<a
+								href="https://RamiJabley.com"
+								target="_blank"
+								style={{ textDecoration: "underline" }}
+							>
 								RamiJabley.com
 							</a>
 							.
